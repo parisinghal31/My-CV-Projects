@@ -4,8 +4,8 @@ import numpy as np
 # This function runs whenever you click the mouse
 def inspect_pixel(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
-        # 1. Get the BGR value (OpenCV reads images as BGR)
-        # Note: Numpy uses (y, x) indexing for (row, column)
+        # 1. Get the BGR value
+        # Numpy uses (y, x) indexing for (row, column)
         bgr_pixel = img[y, x]
         b, g, r = bgr_pixel
 
@@ -32,7 +32,7 @@ def inspect_pixel(event, x, y, flags, param):
         zoom_big = cv2.resize(zoom, (220, 220), interpolation=cv2.INTER_NEAREST)
         cv2.imshow("11x11 Zoom", zoom_big)
 
-# Load your image (put an image file named 'test.jpg' in your folder)
+# Load your image
 img = cv2.imread('test.png')
 
 if img is None:
