@@ -1,4 +1,4 @@
-Project 5: Geometric Transformations Playground
+##Project 5: Geometric Transformations Playground
 
 - This project explores the mathematical foundations of computer vision by implementing 2D and 3D geometric transformations. Instead of relying solely on high-level functions, we manually construct transformation matrices to understand how pixels are mapped from a source image to a destination coordinate system.
 
