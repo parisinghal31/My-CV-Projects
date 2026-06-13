@@ -71,6 +71,6 @@
 ## Project Architecture
 
 ```text
-├── morphology_playground.py  # Comprehensive python source execution file
+├── main.py  # Comprehensive python source execution file
 ├── README.md                 # Detailed structural engineering documentation
 └── morphology_outputs/       # Directory containing step-by-step output images
