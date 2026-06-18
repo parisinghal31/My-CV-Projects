@@ -56,7 +56,7 @@ kmeans.png
 meanshift.png
 grabcut.png
 watershed.png
-
+comparison.png
 ---
 
 ## Observations
